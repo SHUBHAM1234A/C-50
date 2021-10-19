@@ -1,0 +1,36 @@
+h1 {
+    color: darkblue;
+}
+
+
+.header {
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+p, h2{
+    text-align: center;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
